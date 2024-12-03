@@ -217,21 +217,27 @@ button {
 
 /* Video Section */
 
-.video-section{
+.video-section {
     display: flex;
     margin: 0 auto;
     max-width: 1197px;
     justify-content: space-between;
+    gap: 20px;
 }
 
-.video-section-content {
+.video-section-content,
+video {
     text-align: left;
-    width: 450px;
+    /* width: 450px;
+    height: 424px; */
+    width: 610px;
     height: 424px;
-    
+    border-radius: 16px;
+    /* overflow: hidden; */
+    object-fit: cover;
 }
 
-iframe{
+iframe {
     border-radius: 16px;
 }
 
