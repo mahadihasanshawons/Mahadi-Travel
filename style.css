@@ -138,28 +138,40 @@ button {
 .deals-discounts-section {
     max-width: 1197px;
     margin: 0 auto;
+   
+
 }
 
-.discounts-detils-top{
+.discounts-detils-top {
     background-image: url(Images/Group\ 39.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     border-radius: 16px;
+    /* position: relative; */
     height: 500px;
+    display: flex;
+    justify-content: end;
+    margin-bottom: 50px;
+
 }
-.discounts-info{
+
+.discounts-info {
     border-radius: 16px;
     border: 2px solid #FFF;
     background: rgba(255, 255, 255, 0.80);
     backdrop-filter: blur(2.5px);
     width: 40%;
     margin: 80px;
-    
+    /* position: absolute;
+    top: 20%;
+    left: 10%; */
 }
 
-
-
+.ex-css-middel{
+    background-image: url(Images/Group\ 40.png);
+    justify-content: left;
+}
 
 
 
