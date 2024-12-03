@@ -1,0 +1,179 @@
+/* global style  */
+.color-orange {
+    color: #FF5400;
+}
+
+.color-white {
+    color: #FFF;
+}
+
+body {
+    color: #424247;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+button {
+    background-color: #FF5400;
+    color: #FFF;
+}
+
+/* nav style */
+nav {
+    max-width: 1197px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+nav .logo-section {
+    display: flex;
+    gap: 10px;
+}
+
+
+nav ul {
+    display: flex;
+}
+
+
+nav>ul>li {
+    list-style: none;
+    margin-left: 44px;
+}
+
+
+/* traveler wants form */
+
+.traveler-wants-form {
+    background-image: url(/Images/Group\ 13\ \(1\)\ \(1\).png);
+    max-width: 1197px;
+    /* max-height: 500px; */
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 15px;
+    margin: 0 auto;
+}
+
+form {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    padding: 15px;
+}
+
+input,
+select,
+button {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    padding-left: 15px;
+    border: none;
+}
+
+.container {
+    padding: 150px;
+}
+
+.tours-section {
+    max-width: 1197px;
+    text-align: left;
+    display: flex;
+    margin: 80px auto;
+    gap: 30px;
+}
+
+.destination {
+    margin: 25px auto;
+}
+
+.destination img {
+    margin: 3px;
+}
+
+/*  choose us style */
+
+.Choose-Us {
+    max-width: 1197px;
+    margin: 0 auto;
+}
+
+.div-style {
+    width: 573px;
+    height: 284px;
+    padding: 32px;
+    text-align: left;
+    margin: 12px;
+}
+
+.hotel {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.Service {
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.Price {
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
+
+.Choose-Us-info {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* deals-discounts-section */
+.deals-discounts-section {
+    max-width: 1197px;
+    margin: 0 auto;
+}
+
+.discounts-detils-top{
+    background-image: url(Images/Group\ 39.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 16px;
+    height: 500px;
+}
+.discounts-info{
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    width: 40%;
+    margin: 80px;
+    
+}
+
+
+
+
+
+
+
+/* footer style */
+footer {
+    padding: 20px 335px;
+    text-align: center;
+    background: rgba(19, 19, 24, 0.05);
+}
+
+footer .logo-section {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 0 auto;
+}
